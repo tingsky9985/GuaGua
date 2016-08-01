@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:guaka="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ting.open.guagua.View.GuaKa
+        android:id="@+id/gua_ka"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        guaka:text="500,000"
+        guaka:textColor="#ff00f0"
+        guaka:textSize="23sp"
+        />
+
+</RelativeLayout>
